@@ -1,0 +1,62 @@
+[
+    {
+        "id": 150100779,
+        "city": "West Palm Beach",
+        "artiste": "Chris Brown & Lil Baby",
+        "price": 19
+    },
+    {
+        "id": 150096789,
+        "city": "Tampa",
+        "artiste": "Chris Brown & Lil Baby",
+        "price": 28
+    },
+    {
+        "id": 10380132,
+        "city": "Inglewood",
+        "artiste": "Daddy Yankee",
+        "price": 23
+    },
+    {
+        "id": 4422829,
+        "city": "Camden",
+        "artiste": "Backstreet Boys",
+        "price": 23
+    },
+    {
+        "id": 4422826,
+        "city": "Hartford",
+        "artiste": "Backstreet Boys",
+        "price": 20
+    },
+    {
+        "id": 150029205,
+        "city": "Bethel",
+        "artiste": "Backstreet Boys",
+        "price": 69
+    },
+    {
+        "id": 150100777,
+        "city": "Miami Beach",
+        "artiste": "Chris Brown & Lil Baby",
+        "price": 30
+    },
+    {
+        "id": 150096787,
+        "city": "Aurora",
+        "artiste": "Chris Brown & Lil Baby",
+        "price": 28
+    },
+    {
+        "id": 10380142,
+        "city": "Orland Park",
+        "artiste": "Daddy Yankee",
+        "price": 19
+    },
+    {
+        "id": 10380132,
+        "city": "Calumet City",
+        "artiste": "Daddy Yankee",
+        "price": 23
+    }
+]

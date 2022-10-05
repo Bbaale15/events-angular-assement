@@ -1,0 +1,25 @@
+<!--
+<router-outlet></router-outlet>
+-->
+
+<h1>Artiste Events</h1>
+<form #f="ngForm" (ngSubmit)="onFilter(f)" novalidate>
+  <div>
+    <label for="city">City: </label>
+    <input type="text" name="city" ngModel>
+  </div>
+<br>
+  <div>
+    <label for="city">Price: </label>
+    <input type="text" name="price" ngModel>
+  </div>
+<br>
+  <button>Filter</button>
+</form>
+
+<hr>
+<div *ngFor="let artisteEvent of artistesEvents$ | async">
+  <app-list-item [artisteEvent]="artisteEvent"></app-list-item>
+</div>
+<div *ngIf='(artistesEvents$ | async)?.length === 0'>No results found!</div>
+
