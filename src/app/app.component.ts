@@ -11,7 +11,7 @@ import { filter, map } from 'rxjs/operators'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'events-app';
+  title = 'Artiste Events App';
   artistesEvents$: Observable<IArtisteEvent[]>;
 
   constructor(private artistesEventsService: ArtistesEventsService) {

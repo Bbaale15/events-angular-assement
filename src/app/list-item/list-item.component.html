@@ -1,4 +1,4 @@
-<p>
-    {{ artisteEvent.city }} | {{ artisteEvent.artiste }} | {{ artisteEvent.price }}
-</p>
-<hr>
+<p><b>City: </b> {{ artisteEvent.city }}</p>
+<p><b>Artiste: </b> {{ artisteEvent.artiste }}</p>
+<p><b>Price: </b>{{ artisteEvent.price | currency }}</p>
+<hr />
